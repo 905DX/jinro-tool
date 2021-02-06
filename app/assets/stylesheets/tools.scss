@@ -1,3 +1,93 @@
 // Place all the styles related to the tools controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  width: calc(100vw - 280px);
+}
+.main-members{
+  background-color: #330000;
+    height: 120px;
+    border: 2px solid #e0ce0a;
+  }
+  .title{
+    font-size: 30px;
+    font-family: serif;
+    color: #fff;
+  }
+  .member-view{
+    position: absolute;
+  }
+  
+  .main-result{
+    background-color: #00283c;
+    height: calc(100vh - 120px - 325px);
+    border: 2px solid #e0ce0a;
+  }
+  .tsuikabtn{
+    margin-bottom: 5px;
+  }
+  
+  .selectbox{
+    display: flex;
+    font-family: serif;
+    font-size: 20px;
+    overflow: auto;
+    cursor: pointer;
+  }
+  .selectbox-yaku{
+    margin-right: 5px;
+  }
+  .selectbox-users{
+    margin-right: 2px;
+  }
+  .selectbox-color{
+    margin-right: 5px;
+  }
+  .selectbox-members{
+    margin-right: 5px;
+  }
+  
+  
+  .main-ber{
+    height: 100vh;
+    background-color: grey;
+    border: 2px solid #e0ce0a;
+  }
+  .side-bar {
+    background-color: #00283c;
+    width: 280px;
+    height: 100vh;
+    border: 2px solid #e0ce0a;
+  }
+  .youtube-font{
+    font-size: 30px;
+    font-family: serif;
+  }
+  
+  .youtube{
+    border: 2px solid #e0ce0a;
+    background-color: gray;
+    overflow: auto;
+    height: 316px;
+  }
+  .video{
+    padding-left: 5px;
+  }
+  .memotext{
+    padding-top: 10px;
+    margin-left: 8px;
+  }
+  
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+  select::-ms-expand{
+    display: none;
+    }
